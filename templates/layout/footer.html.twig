@@ -1,0 +1,20 @@
+<footer class="container-fluid pt-4 border-top border-light bg-dark text-white">
+<div class="row">
+  <div class="col-9 float-left text-left">
+    <small class="d-block mb-3 text-muted">© {{'now'|date('Y')}} <span class="text-danger font-weight-bold">[{{site_title}}]</span></small>
+  </div>
+  <div class="col-3 float-right text-right">
+    <small class="d-block mb-3">Tüm hakları saklıdır.</small>
+  </div>
+</div>
+</footer>
+
+{% block javascripts %}
+<!-- script start -->
+<script src="{{asset('public/js/jquery.min.js')}}"></script>
+<script src="{{asset('public/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('public/js/main.js')}}"></script>
+{% endblock %}
+<!-- script end -->
+</body>
+</html>
